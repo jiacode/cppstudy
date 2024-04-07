@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CppToolsLib.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="JTools.cpp" />
+    <ClCompile Include="myThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JTools.h" />
+    <ClInclude Include="myThread.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
